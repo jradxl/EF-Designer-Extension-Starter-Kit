@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx"><!--Stub for storage model; model is defined in Model1.ssdl--><Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="TESTENTITies" EntityType="Model1.Store.TESTENTITies" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="TESTENTITies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Lastname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Firstname" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx"><!--Stub for conceptual model; model is defined in Model1.csdl--><Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false"><EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true"><EntitySet Name="TESTENTITies" EntityType="Model1.TESTENTITY" /></EntityContainer><EntityType Name="TESTENTITY"><Key><PropertyRef Name="Id" /></Key><Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity"><a:MyNewPropertyProperty xmlns:a="http://schemas.tempuri.com/MyNewPropertyProperty">True</a:MyNewPropertyProperty></Property>
+          <Property Type="String" Name="Lastname" Nullable="false" />
+          <Property Type="String" Name="Firstname" Nullable="false" /><a:MyNewProperty2 xmlns:a="http://schemas.tempuri.com/MyNewProperty2">123</a:MyNewProperty2><a:MyNewProperty xmlns:a="http://schemas.tempuri.com/MyNewProperty">True</a:MyNewProperty></EntityType><a:StarterKitNamespace xmlns:a="http://schemas.tempuri.com/StarterKitDesignerExtension">SomeString</a:StarterKitNamespace></Schema></edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx"><!--Stub for mappings model; mappings are defined in Model1.msl--><Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="TESTENTITies">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.TESTENTITY)">
+        <MappingFragment StoreEntitySet="TESTENTITies">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx"><!--Stub for diagrams model; diagrams are defined in Model1.des--><Connection><DesignerInfoPropertySet><DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" /></DesignerInfoPropertySet></Connection><Options><DesignerInfoPropertySet><DesignerProperty Name="ValidateOnBuild" Value="true" /><DesignerProperty Name="EnablePluralization" Value="True" /><DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" /></DesignerInfoPropertySet></Options><!-- Diagram content (shape and connector positions) --><Diagrams></Diagrams></Designer>
+</edmx:Edmx>

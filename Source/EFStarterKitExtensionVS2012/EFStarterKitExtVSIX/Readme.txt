@@ -1,7 +1,4 @@
-EF Designer Extension Starter Kit
-=================================
-
-Entity Framework Designer Starter Kit for VS 2012
+﻿Entity Framework Designer Starter Kit for VS 2012
 
 There is a Starter Kit referred to in the MS documentation and in Visual Studio Gallery but I could not get it to work.
 http://code.msdn.microsoft.com/DesignerExtStartKit and http://archive.msdn.microsoft.com/DesignerExtStartKit
