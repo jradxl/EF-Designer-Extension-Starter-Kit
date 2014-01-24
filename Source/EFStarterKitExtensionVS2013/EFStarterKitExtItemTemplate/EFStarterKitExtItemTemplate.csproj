@@ -32,8 +32,8 @@
     <ProjectGuid>{AB85375E-0762-43C2-999B-B80E2143774C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ItemTemplate1</RootNamespace>
-    <AssemblyName>ItemTemplate1</AssemblyName>
+    <RootNamespace>EFStarterKitExtItemTemplate</RootNamespace>
+    <AssemblyName>EFStarterKitExtItemTemplate</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -81,7 +81,7 @@
     <None Include="StarterKitExtension.tt" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="ADONETArtifactGenerator_StarterKitExtension.temTemplate.vstemplate" />
+    <VSTemplate Include="ADONETArtifactGenerator_StarterKitExtensionItemTemplate.vstemplate" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

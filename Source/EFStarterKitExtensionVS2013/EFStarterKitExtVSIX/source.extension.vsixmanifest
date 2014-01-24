@@ -13,9 +13,9 @@ rebuilt for VS2013
     <Icon>__TemplateIcon.ico</Icon>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
-    <InstallationTarget Version="11.0" Id="Microsoft.VisualStudio.Premium" />
-    <InstallationTarget Version="11.0" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="[12.0]" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[12.0]" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[12.0]" Id="Microsoft.VisualStudio.Ultimate" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />

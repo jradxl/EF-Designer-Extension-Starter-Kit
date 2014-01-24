@@ -89,7 +89,7 @@
       <Name>EFStarterKitExtDesigner</Name>
     </ProjectReference>
     <ProjectReference Include="..\EFStarterKitExtItemTemplate\EFStarterKitExtItemTemplate.csproj">
-      <Project>{AB85375E-0762-43C2-999B-B80E2143774C}</Project>
+      <Project>{ab85375e-0762-43c2-999b-b80e2143774c}</Project>
       <Name>EFStarterKitExtItemTemplate</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
