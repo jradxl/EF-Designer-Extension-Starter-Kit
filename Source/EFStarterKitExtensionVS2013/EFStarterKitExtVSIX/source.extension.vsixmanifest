@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="EFStarterKitExtVSIX..15193de3-2d2f-47f4-9675-dc561c6ea073" Version="1.1.0" Language="en-US" Publisher="jsrsoft" />
-    <DisplayName>EF Designer Extension Starter Kit VS2012</DisplayName>
+    <Identity Id="EFStarterKitExtVSIX..15193de3-2d2f-47f4-9675-dc561c6ea073" Version="1.1.1" Language="en-US" Publisher="jsrsoft" />
+    <DisplayName>EF Designer Extension Starter Kit VS2013</DisplayName>
     <Description xml:space="preserve">ADO.NET Entity Data Model Designer Extension Starter Kit 
 http://archive.msdn.microsoft.com/DesignerExtStartKit
-rebuilt for VS2012
+rebuilt for VS2013
 </Description>
     <MoreInfo>http://archive.msdn.microsoft.com/DesignerExtStartKit</MoreInfo>
     <License>ADO.NET Entity Data Model Designer Extension Starter Kit License Terms.txt</License>

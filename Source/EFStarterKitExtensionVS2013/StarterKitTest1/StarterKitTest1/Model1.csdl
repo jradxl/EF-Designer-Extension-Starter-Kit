@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:ConceptualModels xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+    <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+      <EntitySet Name="TESTENTITies" EntityType="Model1.TESTENTITY" />
+    </EntityContainer>
+    <EntityType Name="TESTENTITY">
+      <Key>
+        <PropertyRef Name="Id" />
+      </Key>
+      <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Lastname" Nullable="false" />
+          <Property Type="String" Name="Firstname" Nullable="false" /><a:MyNewProperty2 xmlns:a="http://schemas.tempuri.com/MyNewProperty2">123</a:MyNewProperty2><a:MyNewProperty xmlns:a="http://schemas.tempuri.com/MyNewProperty">True</a:MyNewProperty></EntityType>
+    <a:StarterKitNamespace xmlns:a="http://schemas.tempuri.com/StarterKitDesignerExtension">SomeString</a:StarterKitNamespace>
+  </Schema>
+</edmx:ConceptualModels>

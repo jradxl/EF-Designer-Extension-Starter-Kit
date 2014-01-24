@@ -1,15 +1,14 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EFStarterKitExtItemTemplate")]
+[assembly: AssemblyTitle("EFStarterKitExtDesigner")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EFStarterKitExtItemTemplate")]
+[assembly: AssemblyProduct("EFStarterKitExtDesigner")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e748149a-0fa6-4098-b661-9b57e2a51c99")]
+[assembly: Guid("f6ad54c6-c3b6-4d48-be31-d5ae1100e180")]
 
 // Version information for an assembly consists of the following four values:
 //

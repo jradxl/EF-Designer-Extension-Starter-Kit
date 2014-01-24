@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <Connection>
+    <DesignerInfoPropertySet>
+      <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+    </DesignerInfoPropertySet>
+  </Connection>
+  <Options>
+    <DesignerInfoPropertySet>
+      <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      <DesignerProperty Name="EnablePluralization" Value="True" />
+      <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+    </DesignerInfoPropertySet>
+  </Options>
+  <!-- Diagram content (shape and connector positions) -->
+  <Diagrams></Diagrams>
+</Designer>

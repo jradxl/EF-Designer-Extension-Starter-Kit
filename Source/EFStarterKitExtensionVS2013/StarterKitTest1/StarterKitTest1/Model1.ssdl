@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:StorageModels xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="TESTENTITies" EntityType="Model1.Store.TESTENTITies" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="TESTENTITies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Lastname" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema>
+</edmx:StorageModels>
