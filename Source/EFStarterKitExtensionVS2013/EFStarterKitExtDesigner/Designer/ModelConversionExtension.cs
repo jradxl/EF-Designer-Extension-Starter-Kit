@@ -15,7 +15,7 @@ namespace StarterKitExtension.Designer
         /// Called after the contents of a custom file have been loaded, but before the contents are converted
         /// to an .edmx document for display in the Entity Designer.
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">Provides file and Visual Studio project information.</param>
         void IModelConversionExtension.OnAfterFileLoaded(ModelConversionExtensionContext context)
         {
             // context.OriginalDocument = Contents of the custom file as a string.
@@ -28,7 +28,7 @@ namespace StarterKitExtension.Designer
         /// <summary>
         /// Called right before the file will be saved to disk.
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">Provides file and Visual Studio project information.</param>
         void IModelConversionExtension.OnBeforeFileSaved(ModelConversionExtensionContext context)
         {
             // context.CurrentDocument = The .edmx content (as an XDocument) created by the Entity Designer.

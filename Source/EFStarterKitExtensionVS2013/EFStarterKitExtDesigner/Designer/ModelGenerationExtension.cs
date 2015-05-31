@@ -19,7 +19,7 @@ namespace StarterKitExtension.Designer
         /// Called when the selected object in the Entity Data Model Designer changes
         /// and matches the specified EntityDesignerExtendedProperty attribute.
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">Provides file and Visual Studio project information.</param>
         void IModelGenerationExtension.OnAfterModelGenerated(ModelGenerationExtensionContext context)
         {
             //
@@ -57,7 +57,7 @@ namespace StarterKitExtension.Designer
         /// <summary>
         /// Called after a model is updated by the Update Model Wizard.
         /// </summary>
-        /// <param name="context"></param>
+        /// <param name="context">Provides file information and Visual Studio project information.</param>
         void IModelGenerationExtension.OnAfterModelUpdated(UpdateModelExtensionContext context)
         {
             //
@@ -126,7 +126,7 @@ namespace StarterKitExtension.Designer
 
         /// <summary>
         /// Shows how a model generation extension can annotate the generated model with a new property that can be read, displayed and edited by a property extension.
-        /// 
+        ///
         /// Adds a new child XElement to every EntityType element in the generated conceptual model.
         /// The new child XElement is in the same format as properties that are added by a property extension.
         /// </summary>
@@ -135,7 +135,7 @@ namespace StarterKitExtension.Designer
         {
             bool newPropertyValue = true;
 
-            // Add a new child element, MyNewProperty, as the last child of each EntityType element in the conceptual model. 
+            // Add a new child element, MyNewProperty, as the last child of each EntityType element in the conceptual model.
             // This child element is known as a "Structured Annotation" and can be accessed with Entity Framework metadata APIs at design time or runtime.
             //
             // For more details see: http://blogs.msdn.com/efdesign/archive/2008/08/12/structural-annotations-one-pager.aspx
