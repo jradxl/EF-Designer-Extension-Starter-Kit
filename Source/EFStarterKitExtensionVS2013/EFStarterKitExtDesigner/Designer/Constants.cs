@@ -7,6 +7,7 @@ namespace StarterKitExtension.Designer
     {
         internal const string _category1 = "Starter Kit Category 1";
         internal const string _category2 = "Starter Kit Category 2";
+        internal const string _starterKitLayerName = "Starter Kit Layer";
 
         //Designer extensions
         internal static readonly string _designerExtensionsNamespace = "http://schemas.tempuri.com/StarterKitDesignerExtension";

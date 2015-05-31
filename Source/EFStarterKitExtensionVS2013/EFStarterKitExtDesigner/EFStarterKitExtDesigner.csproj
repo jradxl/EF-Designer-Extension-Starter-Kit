@@ -61,6 +61,12 @@
     <Compile Include="Designer\ModelConversionExtension.cs" />
     <Compile Include="Designer\ModelGenerationExtension.cs" />
     <Compile Include="Designer\ModelTransformExtension.cs" />
+    <Compile Include="Designer\MyNewDesignSurfaceLayerProperty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Designer\MyNewDesignSurfaceLayerPropertyFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Designer\MyNewDesignSurfaceProperty.cs" />
     <Compile Include="Designer\MyNewDesignSurfacePropertyFactory.cs" />
     <Compile Include="Designer\MyNewProperty.cs" />
@@ -70,6 +76,9 @@
     <Compile Include="Designer\MyNewPropertyProperty.cs" />
     <Compile Include="Designer\MyNewPropertyPropertyFactory.cs" />
     <Compile Include="Designer\PropertyManager.cs" />
+    <Compile Include="Designer\StarterKitLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wizard\ModelChoser.cs">
       <SubType>Form</SubType>
