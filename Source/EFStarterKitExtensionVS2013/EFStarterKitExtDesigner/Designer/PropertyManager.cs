@@ -23,9 +23,12 @@ namespace StarterKitExtension.Designer
 
         public static void SetValue(XElement _parent, PropertyExtensionContext _context,  XName xName, string value)
         {
-            string propertyValue = string.Empty;
+            string propertyValue;
             if (value != null)
                 propertyValue = value.Trim();
+            else
+                propertyValue = string.Empty;
+
             using (EntityDesignerChangeScope scope = _context.CreateChangeScope("Set StarterKit Property"))
             {
                 if (_parent.HasElements)
